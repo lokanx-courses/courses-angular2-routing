@@ -17,6 +17,6 @@ import {About} from './components/about/about';
 class AppComponent { }
 
 bootstrap(AppComponent, [
-    ROUTER_BINDINGS,
-    provide(APP_BASE_HREF, {useValue: '/route'})
+    ROUTER_BINDINGS /*,
+    provide(APP_BASE_HREF, {useValue: '/route'}) */
 ]);
